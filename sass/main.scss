@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
-@import "/mixins";
-@import "/placeholder";
-@import "/variables";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
 
 
 *, 
@@ -15,8 +13,92 @@
 body, html {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 img {
     max-width: 100%;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1rem 2rem ;
+
+    .main {
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img {
+                height: 27px;
+            }
+        }
+
+        .section__main {
+            max-width: 1000px;
+            margin: 2rem auto 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .section__main--left {
+                max-width: 600px;
+                margin-right: 20px;
+
+            }
+
+            .section__main--right {
+                width: 360px;
+                box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+                text-align: center;
+
+                img {
+                    height: 27px;
+                    margin-top: 28px;
+                }
+
+                .under-sec {
+                    margin-top: .94118rem;
+                    padding: 0 1.41176rem;
+
+                    h1 {
+                        font-size: 1.17647rem;
+                        margin-top: .82353rem;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        display: block;
+                        font-size: 0.82353rem;
+                        line-height: 1rem;
+                        margin-top: .3529rem;
+                    }
+
+                    form {
+                        margin-top: 3.58824rem;
+
+                        .form-row {
+
+                            input {
+                                min-width: 100%;
+                                font-size: .82353rem;
+                                height: 1.88235rem;
+                                margin-top: .41176rem;
+                                background: transparent;
+                                text-transform: capitalize;
+                                text-align: center;
+                                border: 0;
+                                border-bottom: 1px solid blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
