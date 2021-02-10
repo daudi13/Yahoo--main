@@ -108,6 +108,12 @@ img {
   padding: 0 1.41176rem;
 }
 
+@media screen and (max-width: 750px) {
+  .container .main .section__main .section__main--right .under-sec {
+    margin: 2rem;
+  }
+}
+
 .container .main .section__main .section__main--right .under-sec h1 {
   font-size: 1.17647rem;
   margin-top: .82353rem;
@@ -224,5 +230,26 @@ img {
   background: transparent;
   font-weight: 700;
   text-transform: capitalize;
+}
+
+.container .main .section__main .section__main--right .under-sec form .google button:hover {
+  border: 1px solid #188fff;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.attribution a {
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
+}
+
+.attribution span {
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */

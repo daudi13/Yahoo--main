@@ -87,6 +87,10 @@ img {
                     margin: 3.94118rem 0;
                     padding: 0 1.41176rem;
 
+                    @media screen and (max-width: 750px) {
+                        margin: 2rem;
+                    }
+
                     h1 {
                         font-size: 1.17647rem;
                         margin-top: .82353rem;
@@ -206,6 +210,9 @@ img {
                             font-weight: 700;
                             text-transform: capitalize;
                             
+                            &:hover {
+                                border: 1px solid #188fff;
+                            }
                         }
                 }
             }
@@ -213,4 +220,21 @@ img {
     }
 }
 
+}
+
+.attribution {
+    text-align: center;
+
+    a {
+        font-size: 12px;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    span {
+        font-size: 12px;
+    }
 }
