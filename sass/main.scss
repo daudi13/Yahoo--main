@@ -43,19 +43,40 @@ img {
             max-width: 1000px;
             margin: 2rem auto 0;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-between;
 
+            @media screen  and (max-width: 750px){
+                align-items: center;
+                justify-content: center;
+            }
+
             .section__main--left {
-                max-width: 600px;
+                margin-top: 3rem;
+                max-width: 590px;
                 margin-right: 20px;
 
+                @media  screen and (max-width: 750px) {
+                    display: none;
+                }
+
+                h1 {
+                    font-size: 21px;
+                    font-weight: 700;
+                    padding: 20px 0;
+                }
+
+                p {
+                    font-size: 21px;
+                    display: block;
+                }
             }
 
             .section__main--right {
                 width: 360px;
                 box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
                 text-align: center;
+                border-radius: 10px;
 
                 img {
                     height: 27px;
@@ -63,7 +84,7 @@ img {
                 }
 
                 .under-sec {
-                    margin-top: .94118rem;
+                    margin: 3.94118rem 0;
                     padding: 0 1.41176rem;
 
                     h1 {
@@ -81,6 +102,7 @@ img {
 
                     form {
                         margin-top: 3.58824rem;
+                        margin-bottom: 21px;
 
                         .form-row {
 
@@ -95,6 +117,10 @@ img {
                                 border-bottom: 1px solid rgb(109, 109, 231);
                                 margin-bottom: 20px;
                                 outline: none;
+
+                                @media screen and (max-width: 750px) {
+                                    font-size: 12px;
+                                }
                             }
                         }
 
@@ -115,7 +141,13 @@ img {
                                 background: #188fff;
                                 color: #fff;
                                 margin-bottom: 20px;
+                                opacity: 0.9;
+
+                                &:hover {
+                                    opacity: 1;
+                                }
                             }
+
                         }
 
                         .helper-links-container {
@@ -123,6 +155,10 @@ img {
                             justify-content: space-between;
                             align-items: center;
                             margin-bottom: 20px;
+
+                            @media screen and (max-width: 435px) {
+                                font-size: 13px;
+                            }
 
                             .for {
                                 #checkbox {
@@ -139,7 +175,12 @@ img {
                                 a {
                                     text-decoration: none;
                                     color: #188fff;
+
+                                    &:hover {
+                                        text-decoration: underline;
+                                    }
                                 }
+
                             }
                         }
 
@@ -164,6 +205,7 @@ img {
                             background: transparent;
                             font-weight: 700;
                             text-transform: capitalize;
+                            
                         }
                 }
             }
