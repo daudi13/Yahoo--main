@@ -42,6 +42,11 @@ img {
   height: 27px;
 }
 
+.container .main .header .header__btn a {
+  color: #188fff;
+  text-transform: capitalize;
+}
+
 .container .main .section__main {
   max-width: 1000px;
   margin: 2rem auto 0;
@@ -232,12 +237,20 @@ img {
   text-transform: capitalize;
 }
 
+.container .main .section__main .section__main--right .under-sec form .google button .fab {
+  color: red;
+}
+
 .container .main .section__main .section__main--right .under-sec form .google button:hover {
   border: 1px solid #188fff;
 }
 
 .attribution {
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .attribution a {
