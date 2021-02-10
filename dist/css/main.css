@@ -97,13 +97,80 @@ img {
 
 .container .main .section__main .section__main--right .under-sec form .form-row input {
   min-width: 100%;
-  font-size: .82353rem;
+  font-size: 14.5px;
   height: 1.88235rem;
   margin-top: .41176rem;
   background: transparent;
   text-transform: capitalize;
-  text-align: center;
   border: 0;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #6d6de7;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.container .main .section__main .section__main--right .under-sec form .button-container button {
+  width: 100%;
+  padding: .64706rem 0;
+  font-size: .9411rem;
+  line-height: 1rem;
+  height: 2.4rem;
+  border-radius: 1.2rem;
+  outline: none;
+}
+
+.container .main .section__main .section__main--right .under-sec form .button-container .main {
+  border: 1px solid #188fff;
+  background: #188fff;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.container .main .section__main .section__main--right .under-sec form .helper-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.container .main .section__main .section__main--right .under-sec form .helper-links-container .for #checkbox {
+  background: transparent !important;
+  margin-right: 5px;
+}
+
+.container .main .section__main .section__main--right .under-sec form .helper-links-container .for label {
+  color: #188fff;
+}
+
+.container .main .section__main .section__main--right .under-sec form .helper-links-container .forget-link a {
+  text-decoration: none;
+  color: #188fff;
+}
+
+.container .main .section__main .section__main--right .under-sec form .bottom {
+  margin-bottom: 18px !important;
+}
+
+.container .main .section__main .section__main--right .under-sec form .bottom .crt {
+  border: 1px solid #188fff;
+  background: transparent;
+  font-weight: 700;
+  color: #188fff;
+}
+
+.container .main .section__main .section__main--right .under-sec form p {
+  margin-bottom: 18px;
+}
+
+.container .main .section__main .section__main--right .under-sec form .google button {
+  border: 1px solid grey;
+  background: transparent;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 /*# sourceMappingURL=main.css.map */
