@@ -14,7 +14,6 @@ body, html {
   font-family: 'Nunito', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  background: red;
 }
 
 img {
@@ -24,7 +23,13 @@ img {
 .container {
   max-width: 100%;
   margin: 0 auto;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 17rem;
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    padding-bottom: 1rem;
+  }
 }
 
 .container .main .header {
@@ -247,13 +252,10 @@ img {
 }
 
 .attribution {
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  margin: 0;
   width: 100%;
   background: #fff;
+  text-align: center;
 }
 
 .attribution a {
